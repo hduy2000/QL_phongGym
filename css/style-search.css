@@ -1,0 +1,46 @@
+body {
+    background-image: url(../bg_admin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table {
+    height: 100%;
+    margin-bottom: 0px !important;
+}
+
+.thead-table {
+    background-color: #acacd6;
+}
+
+th,
+td {
+    letter-spacing: 1.2px;
+}
+
+tr th {
+    background-color: #acacd6;
+    position: sticky;
+    top: 0;
+}
+
+.container-table {
+    margin-top: 20px;
+}
+
+.container-table::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+tbody tr {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #dddde0 !important;
+    cursor: pointer;
+}
+
+
+/* search bar */
